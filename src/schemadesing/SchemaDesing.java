@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package schema.desing;
+package schemadesing;
 
-import schema.desing.view.main;
+import schemadesing.view.MainGui;
 
 /**
  *
@@ -18,7 +18,7 @@ public class SchemaDesing {
      */
     public static void main(String[] args) {
         java.awt.EventQueue.invokeLater(() -> {
-            new main().setVisible(true);
+            new MainGui().setVisible(true);
         });
     }
     
